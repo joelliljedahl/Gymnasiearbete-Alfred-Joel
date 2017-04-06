@@ -1,0 +1,28 @@
+#leftdigitalillustration {
+    background-color: #494949;
+    background-image: url(/bilder/DigitalIllustrationPortrait.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+main > div > .row > div {
+    padding: 0;
+}
+
+#myImg7 {
+    width: 60%;
+    margin-left: 20%;
+}
+/*------------------------------------------media screens--------------------------------------*/
+@media only screen and (orientation: portrait) {
+    
+ 
+    #leftdigitalillustration {
+        background-color: #494949;
+        background-image:url(/bilder/DigitalIllustrationLandscape.jpg);
+        background-position: top right;
+        height:30vh;
+        width:100vw;
+    
+    }
+}
