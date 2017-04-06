@@ -25,7 +25,7 @@
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-        <!--- från början ville vi lägga alla fonter i en länk då vi tyckte att det kändes mest rätt, men det resulterade i valideringsfel, därför ligger våra tre nerladdade fonter nu som separata länkar--->
+        <!-- från början ville vi lägga alla fonter i en länk då vi tyckte att det kändes mest rätt, men det resulterade i valideringsfel, därför ligger våra tre nerladdade fonter nu som separata länkar-->
         <link rel="icon" href="bilder/icon.ico">
     </head>
     <body>
