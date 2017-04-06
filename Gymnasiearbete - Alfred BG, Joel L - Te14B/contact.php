@@ -75,10 +75,10 @@
                             <div class="row">
                                 <div class="large-12 columns">
                                   <label for="subject">Subject
-                                    <select name="subject">
-                                      <option id="subject" value="Web Design">Web Design</option>
-                                      <option id="subject" value="Digital Illustration">Digital Illustration</option>
-                                      <option id="subject" value="Other">Other</option>
+                                    <select name="subject" id="subject">
+                                      <option value="Web Design">Web Design</option>
+                                      <option value="Digital Illustration">Digital Illustration</option>
+                                      <option value="Other">Other</option>
                                     </select>
                                   </label>
                                 </div>
