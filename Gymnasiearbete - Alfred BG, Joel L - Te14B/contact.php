@@ -42,17 +42,20 @@
                 <h1><img src="bilder/logo.png" alt="WNDD Logo"/></h1>
             </div>
             <div class="small-7 columns" id="right">
-                <nav>
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="webdesign.html">Web Design</a></li>
-                        <li><a href="digitalillustration.html">Digital Illustration</a></li>
-                        <li><a id="active" href="contact.php">Contact</a></li>
-                    </ul>
-                </nav>
+                <header>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="webdesign.html">Web Design</a></li>
+                            <li><a href="digitalillustration.html">Digital Illustration</a></li>
+                            <li><a id="active" href="contact.php">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
                 <h2 id="h2">Contact Us</h2>
                 <main>
                     <div class="small-12 columns">
+                        <h2 class="h2hide">About WNDD</h2>
                         <p>Hello, we at WNDD love to hear from you about your ideas and feedback. Give us a shout!</p>
                         <form name="contactForm" action="contact.php" method="post">
                             <div class="row">

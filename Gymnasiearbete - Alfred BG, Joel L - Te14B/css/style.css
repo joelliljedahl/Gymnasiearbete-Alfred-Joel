@@ -59,7 +59,7 @@ div > h1 > img {
     border-left: 7px solid #c7a201;
 }
 
-#right > nav {
+#right > header > nav {
     float: right;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.1vw;
@@ -67,14 +67,14 @@ div > h1 > img {
     margin-right: 1.5vw;
 }
 
-#right > nav > ul > li {
+#right > header > nav > ul > li {
     padding: -2vmin 2vmin 0vmin 2vmin;
 }
-#right > nav > ul > li > a {
+#right > header > nav > ul > li > a {
     color: #ffffff;
 }
 
-#right > nav > ul > li > a:hover {
+#right > header > nav > ul > li > a:hover {
     background-color: #c7a201;
     background-size: cover;
     color: #000000;
@@ -135,7 +135,7 @@ footer {
 /*------Media screens------*/
 @media only screen and (max-width: 900px) and  (orientation: landscape) {
     
-    #right > nav {
+    #right > header > nav {
         font-size: 1.6vw;
     }
 }
@@ -206,7 +206,7 @@ footer {
         border-left: none;
     }
     
-    #right > nav {
+    #right > header > nav {
         width: 95vw;
         margin: 0 2.5vw 0 2.5vw;
         font-size: 0.9em;
