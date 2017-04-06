@@ -67,14 +67,14 @@ div > h1 > img {
     margin-right: 1.5vw;
 }
 
-#right > nav > li {
+#right > nav > ul > li {
     padding: -2vmin 2vmin 0vmin 2vmin;
 }
-#right > nav > li > a {
+#right > nav > ul > li > a {
     color: #ffffff;
 }
 
-#right > nav > li > a:hover {
+#right > nav > ul > li > a:hover {
     background-color: #c7a201;
     background-size: cover;
     color: #000000;

@@ -40,14 +40,16 @@
                 <h1><img src="bilder/logo.png" alt="WNDD Logo"/></h1>
             </div>
             <div class="small-7 columns" id="right">
-                <nav class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="webdesign.html">Web Design</a></li>
-                    <li><a href="digitalillustration.html">Digital Illustration</a></li>
-                    <li><a id="active" href="contact.php">Contact</a></li>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="webdesign.html">Web Design</a></li>
+                        <li><a href="digitalillustration.html">Digital Illustration</a></li>
+                        <li><a id="active" href="contact.php">Contact</a></li>
+                    </ul>
                 </nav>
                 <h2 id="h2">Contact Us</h2>
-                <main role="main">
+                <main>
                     <div class="small-12 columns">
                         <p>Hello, we at WNDD love to hear from you about your ideas and feedback. Give us a shout!</p>
                         <form name="contactForm" action="contact.php" method="post">
@@ -69,9 +71,9 @@
                                 <div class="large-12 columns">
                                   <label for="subject">Subject
                                     <select name="subject">
-                                      <option id="Web Design" value="Web Design">Web Design</option>
-                                      <option id="digital Illustration" value="Digital Illustration">Digital Illustration</option>
-                                      <option id="Other" value="Other">Other</option>
+                                      <option id="subject" value="Web Design">Web Design</option>
+                                      <option id="subject" value="Digital Illustration">Digital Illustration</option>
+                                      <option id="subject" value="Other">Other</option>
                                     </select>
                                   </label>
                                 </div>
